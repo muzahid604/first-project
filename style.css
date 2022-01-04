@@ -13,9 +13,9 @@ h1{
 .name{
     color: orange;
 }
-section{
+.flex-section{
     display: flex;
-    height: 500px;
+    
     
 }
 .first-section{
@@ -47,4 +47,53 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+h3{
+    color: crimson;
+}
+.experience-level{
+    height: 300px;
+    width: 40%;
+    
+    box-shadow: 5px 5px 10px;
+    padding: 2%;
+    
+    
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#baby-exp{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange , rgb(145, 255, 71));
+    border-image-slice: 1;
+}
+#pro-exp{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange , rgb(86, 255, 71));
+    border-image-slice: 1;
+}
+.last-section{
+    height: 300px;
+}
+.last-section h1{
+    text-align: center;
+    color:goldenrod;
+}
+.client{
+    background-color: tomato;
+    margin:10px 100px ;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    height: 120px;
+}
+.client h4{
+    color: rgb(255, 0, 191);
+}
+footer p{
+    text-align: center;
+    
 }
