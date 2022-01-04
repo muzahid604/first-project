@@ -1,3 +1,11 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body p{
+    text-align: justify;
+}
 h1{
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,21 +15,36 @@ h1{
 }
 section{
     display: flex;
+    height: 500px;
+    
+}
+.first-section{
+    background-image: url("images/top-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .half-width{
-    width: 50%;
-    padding-left: 2%;
+    width: 45%;
+    padding-left: 5%;
+    margin: 2%;
 }
 .half-width img{
     width: 80%
     ;
+    margin-top: 5%;
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(to left orange, tomato );
+    background-image: linear-gradient(to left, orange , tomato);
     padding: 10px 40px;
     border-radius: 5px;
-    color: white;
+    color: rgb(65, 37, 37);
     font-weight: 600;
-
+    margin-top: 20px;
+}
+.second-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
